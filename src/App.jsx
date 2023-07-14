@@ -1,4 +1,4 @@
-import { Home, Navbar } from "./components";
+import { Feeds, Home, Navbar, Popup } from "./components";
 
 
 function App() {
@@ -7,6 +7,12 @@ function App() {
     <Navbar />
     <section>
       <Home />
+    </section>
+    <section>
+      <Feeds />
+    </section>
+    <section>
+      <Popup />
     </section>
     </>
   );
